@@ -1,4 +1,3 @@
-// components/FatRateGraph.tsx
 import { Box, Button, Flex, Input } from '@chakra-ui/react';
 import React, { useState, FormEvent } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
@@ -60,4 +59,5 @@ const FatRateGraph: React.FC = () => {
 };
 
 export default FatRateGraph;
+
 
