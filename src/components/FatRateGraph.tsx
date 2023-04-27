@@ -50,8 +50,8 @@ const FatRateGraph: React.FC = () => {
           <XAxis dataKey="date" />
           <YAxis />
           <Tooltip />
-          <Legend />
-          <Line type="monotone" dataKey="体脂肪率" stroke="#8884d8" />
+          <Legend  payload={[{ value: '体脂肪率', type: 'line', color: '#8884d8' }]}/>
+          <Line type="monotone" dataKey="fatRate" stroke="#8884d8" />
         </LineChart>
         </Flex>
     </Box>
@@ -59,5 +59,6 @@ const FatRateGraph: React.FC = () => {
 };
 
 export default FatRateGraph;
+
 
 
